@@ -7,11 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.1] - 2026-06-26
+
 ### Added
 
-- First public release preparation: English README, community health files
-  (CONTRIBUTING, CODE_OF_CONDUCT, SECURITY), issue/PR templates, Dependabot, and
-  CODEOWNERS.
+- Per-package READMEs for `@pound79/bdd-traceability` and `@pound79/bdd-kit` so
+  the npm package pages render documentation.
 
 ## [0.1.0] - 2026-06-26
 
@@ -28,6 +29,9 @@ Initial public release.
   implement) driven by a single `bdd-kit.config.yaml`.
 - Documentation: methodology, adapter contract, config schema, and ADRs
   0001–0007.
+- Community health files (CONTRIBUTING, CODE_OF_CONDUCT, SECURITY), issue/PR
+  templates, Dependabot, and CODEOWNERS.
 
-[Unreleased]: https://github.com/Pound79/bdd-kit/compare/v0.1.0...HEAD
+[Unreleased]: https://github.com/Pound79/bdd-kit/compare/v0.1.1...HEAD
+[0.1.1]: https://github.com/Pound79/bdd-kit/compare/v0.1.0...v0.1.1
 [0.1.0]: https://github.com/Pound79/bdd-kit/releases/tag/v0.1.0
