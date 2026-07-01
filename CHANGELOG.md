@@ -7,13 +7,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.6] - 2026-07-01
+
 ### Fixed
 
 - Bumped the Claude Code plugin manifests
   (`.claude-plugin/marketplace.json`, `plugins/bdd-kit/.claude-plugin/plugin.json`)
   to match the published npm version. They were stranded at `0.1.4` while npm was
   already `0.1.5`, so `/plugin install` reported the plugin was "already at the
-  latest version" even though the code was current.
+  latest version" even though the code was current. (#13)
 
 ### Changed
 
@@ -21,7 +23,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   workspaces (`scripts/release.sh`), and a new `npm run check:versions`
   (`scripts/check-versions.mjs`) asserts all four version sources agree. It runs
   on every PR (CI), in the release script, and as a pre-publish gate in the
-  Release workflow, so plugin/npm version drift can neither merge nor publish.
+  Release workflow, so plugin/npm version drift can neither merge nor publish. (#13)
 
 ## [0.1.5] - 2026-06-30
 
@@ -133,7 +135,8 @@ Initial public release.
 - Community health files (CONTRIBUTING, CODE_OF_CONDUCT, SECURITY), issue/PR
   templates, Dependabot, and CODEOWNERS.
 
-[Unreleased]: https://github.com/Pound79/bdd-kit/compare/v0.1.5...HEAD
+[Unreleased]: https://github.com/Pound79/bdd-kit/compare/v0.1.6...HEAD
+[0.1.6]: https://github.com/Pound79/bdd-kit/compare/v0.1.5...v0.1.6
 [0.1.5]: https://github.com/Pound79/bdd-kit/compare/v0.1.4...v0.1.5
 [0.1.4]: https://github.com/Pound79/bdd-kit/compare/v0.1.3...v0.1.4
 [0.1.3]: https://github.com/Pound79/bdd-kit/compare/v0.1.2...v0.1.3
